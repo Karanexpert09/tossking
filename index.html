@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Raftaar toss king</title>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1076092452151264');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1076092452151264&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<style>
+:root{--bg:#0a0303;--card:#1a0606;--red:#e0262b;--red2:#ff4a4a;--deep:#6e0d10;--text:#f6e9e6;--mut:#b99c98;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:12px 14px;
+background:radial-gradient(ellipse at 50% 0%,#3a0a0c 0%,var(--bg) 60%);color:var(--text);
+font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif}
+.card{width:100%;max-width:420px;background:linear-gradient(160deg,#240808,var(--card) 60%);
+border:1px solid #5a1416;border-radius:20px;padding:18px 18px 16px;text-align:center;position:relative;overflow:hidden;
+box-shadow:0 0 40px rgba(224,38,43,.25),inset 0 0 40px rgba(0,0,0,.6);animation:rise .8s ease both}
+.card::before{content:"";position:absolute;inset:-50%;background:conic-gradient(from 0deg,transparent 0 80%,rgba(224,38,43,.18) 90%,transparent);animation:spin 8s linear infinite;pointer-events:none}
+.card>*{position:relative}
+.crown{width:50px;height:auto;filter:drop-shadow(0 0 10px rgba(224,38,43,.7));animation:float 3s ease-in-out infinite}
+.logo{width:110px;height:110px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 8px;border:2px solid var(--red);box-shadow:0 0 18px rgba(224,38,43,.7);animation:float 3s ease-in-out infinite}
+h1{margin:2px 0 0;font-size:clamp(32px,10vw,44px);line-height:1;letter-spacing:2px;font-weight:900;font-style:italic;
+background:linear-gradient(180deg,#ff6a6a,var(--red) 50%,var(--deep));-webkit-background-clip:text;background-clip:text;color:transparent;
+filter:drop-shadow(0 2px 0 #300)}
+.tag{display:inline-block;margin-top:2px;font-size:15px;font-weight:800;font-style:italic;color:var(--red2);letter-spacing:3px;text-transform:uppercase}
+.sub{margin:6px 0 12px;color:var(--mut);font-size:13px}
+ul{list-style:none;margin:0 0 14px;padding:0;text-align:left}
+li{display:flex;align-items:center;gap:10px;padding:8px 12px;margin-bottom:7px;background:rgba(224,38,43,.07);
+border:1px solid #4a1214;border-radius:12px;font-size:14px;opacity:0;animation:rise .6s ease forwards}
+li{cursor:pointer;transition:transform .25s cubic-bezier(.34,1.56,.64,1),background .25s,border-color .25s,box-shadow .25s}
+li:hover,li:active,li.tap,li.auto{transform:scale(1.04) translateX(4px);background:rgba(224,38,43,.18);border-color:var(--red);box-shadow:0 0 16px rgba(224,38,43,.35)}
+li span{transition:transform .3s cubic-bezier(.34,1.56,.64,1)}
+li:hover span,li:active span,li.tap span,li.auto span{transform:scale(1.2) rotate(-8deg)}
+li:nth-child(1){animation-delay:.3s}li:nth-child(2){animation-delay:.5s}li:nth-child(3){animation-delay:.7s}li:nth-child(4){animation-delay:.9s}
+li span{flex:none;width:26px;height:26px;border-radius:50%;background:var(--red);display:grid;place-items:center;font-size:12px;box-shadow:0 0 10px rgba(224,38,43,.6)}
+.btn{display:block;width:100%;padding:13px;border:0;position:relative;overflow:hidden;border-radius:999px;cursor:pointer;text-decoration:none;
+background:linear-gradient(90deg,var(--deep),var(--red),var(--red2));background-size:200% 100%;color:#fff;
+font-size:16px;font-weight:800;letter-spacing:2px;text-transform:uppercase;animation:pulse 2s infinite,shine 3s linear infinite}
+.btn:active{transform:scale(.95)}
+.btn.go{animation:pop .5s ease,shine 3s linear infinite}
+.rip{position:absolute;border-radius:50%;background:rgba(255,255,255,.55);transform:scale(0);animation:ripple .6s ease-out forwards;pointer-events:none}
+@keyframes ripple{to{transform:scale(4);opacity:0}}
+@keyframes pop{0%{transform:scale(1)}40%{transform:scale(.92)}70%{transform:scale(1.06)}100%{transform:scale(1)}}
+.foot{margin-top:9px;font-size:11px;color:var(--mut)}
+@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@keyframes float{50%{transform:translateY(-6px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes shine{to{background-position:200% 0}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(224,38,43,.6)}70%{box-shadow:0 0 0 16px rgba(224,38,43,0)}100%{box-shadow:0 0 0 0 rgba(224,38,43,0)}}
+</style>
+</head>
+<body>
+<main class="card">
+ <img class="logo" src="logo.jpg" alt="Raftaar Gym">
+  <h1>RAFTAAR TOSS KING</h1>
+  <div class="tag">Gym</div>
+  <p class="sub">Apni limits todo. Apni raftaar pakdo.</p>
+  <ul>
+    <li><span>🪙</span>TOSS PREDICTION</li>
+    <li><span>🏏</span>MATCH PREDICTION</li>
+    <li><span>🖲️</span>SESSION PREDICTION</li>
+    <li><span>🏆</span>DAILY 10 LIMIT PLUS ENTRY CALLS</li>
+  </ul>
+  <a class="btn" id="join" href="https://t.me/+owExeg4RMvhiMjY1">Join Now</a>
+  <div class="foot">Aaj hi join karo • Apne losss ko profit me badlo</div>
+</main>
+<script>
+document.querySelectorAll('li').forEach(function(l){
+ l.addEventListener('animationend',function(){l.style.animation='none';l.style.opacity='1'});
+ l.addEventListener('touchstart',function(){l.classList.add('tap')},{passive:true});
+ ['touchend','touchcancel'].forEach(function(t){l.addEventListener(t,function(){setTimeout(function(){l.classList.remove('tap')},250)},{passive:true})});
+});
+var items=document.querySelectorAll('li'),i=0;
+setTimeout(function(){setInterval(function(){
+ items.forEach(function(x){x.classList.remove('auto')});
+ items[i].classList.add('auto');i=(i+1)%items.length;
+},1100)},1800);
+var b=document.getElementById('join');
+b.addEventListener('click',function(e){
+ var r=b.getBoundingClientRect(),d=document.createElement('span'),z=Math.max(r.width,r.height)/4;
+ d.className='rip';d.style.cssText='width:'+z+'px;height:'+z+'px;left:'+(e.clientX-r.left-z/2)+'px;top:'+(e.clientY-r.top-z/2)+'px';
+ b.appendChild(d);setTimeout(function(){d.remove()},700);
+ b.classList.remove('go');void b.offsetWidth;b.classList.add('go');
+});
+</script>
+</body>
+</html>
